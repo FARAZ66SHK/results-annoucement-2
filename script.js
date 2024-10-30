@@ -2,7 +2,7 @@ let result = prompt('Enter your marks')
 
 if( result >= 80){
 
-    document.write('You got A+ grade')
+    console.log('You got A+ grade')
 }
 
 else if(result < 80 && result >= 70){
